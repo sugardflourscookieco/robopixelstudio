@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RoboPixel Studio | Websites, apps and prototypes</title>
+  <meta name="description" content="RoboPixel Studio designs and builds custom websites, apps and working prototypes for small businesses. Modern intelligence, old-school design.">
+  <meta name="theme-color" content="#26282E">
+  <link rel="canonical" href="https://robopixelstudio.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://robopixelstudio.com/">
+  <meta property="og:title" content="RoboPixel Studio">
+  <meta property="og:description" content="Websites, apps and the occasional crazy idea. Modern intelligence, old-school design.">
+  <meta property="og:image" content="https://robopixelstudio.com/assets/og-image.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Shared logo artwork -->
+  <svg width="0" height="0" class="defs" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="5" result="b"></feGaussianBlur>
+        <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+      <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#FF9F1C" stop-opacity="0.35"></stop>
+        <stop offset="1" stop-color="#FF9F1C" stop-opacity="0"></stop>
+      </radialGradient>
+      <symbol id="tube" viewBox="0 0 200 300">
+        <path d="M60 220 V115 A40 40 0 0 1 140 115 V220" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"></path>
+        <path d="M46 234 H154 M60 252 H140" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"></path>
+        <path d="M80 270 V280 M100 270 V286 M120 270 V280" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"></path>
+        <rect x="95" y="50" width="10" height="10" fill="#2EC4B6"></rect>
+        <g fill="#FF9F1C" filter="url(#glow)">
+          <rect x="72" y="170" width="10" height="10"></rect><rect x="83" y="170" width="10" height="10"></rect>
+          <rect x="83" y="159" width="10" height="10"></rect><rect x="94" y="148" width="10" height="10"></rect>
+          <rect x="94" y="137" width="10" height="10"></rect><rect x="94" y="126" width="10" height="10"></rect>
+          <rect x="105" y="137" width="10" height="10"></rect><rect x="105" y="148" width="10" height="10"></rect>
+          <rect x="105" y="159" width="10" height="10"></rect><rect x="116" y="170" width="10" height="10"></rect>
+        </g>
+        <path d="M77 180 V220 M121 180 V220" stroke="currentColor" stroke-opacity="0.4" stroke-width="3"></path>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main">
+      <a class="brand" href="#top" aria-label="RoboPixel Studio, home">
+        <svg class="brand-mark" width="30" height="45" aria-hidden="true"><use href="#tube"></use></svg>
+        <span class="brand-text">
+          <span class="brand-name">Robo<span class="amber">Pixel</span></span>
+          <span class="brand-sub">STUDIO</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a class="btn btn-teal btn-small" href="#contact">Get in touch</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="hero-light" aria-hidden="true"><div class="hero-light-inner"></div></div>
+      <div class="hero-inner wrap">
+        <div class="hero-copy">
+          <h1>Modern intelligence, <span class="amber"><span class="nowrap">old-school</span> design.</span></h1>
+          <p class="lede">We design and build websites, apps and the technology behind them for small businesses. Then we stick around to keep it all running.</p>
+          <div class="hero-actions">
+            <a class="btn btn-teal" href="#contact">Get in touch</a>
+            <a class="btn btn-outline" href="#work">See our work</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <svg viewBox="0 0 400 440" role="img" aria-label="Glowing RoboPixel vacuum tube">
+            <circle class="halo" cx="200" cy="230" r="190" fill="url(#halo)"></circle>
+            <g transform="translate(80 40) scale(1.2)">
+              <path d="M60 220 V115 A40 40 0 0 1 140 115 V220" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"></path>
+              <path d="M46 234 H154 M60 252 H140" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"></path>
+              <path d="M80 270 V280 M100 270 V286 M120 270 V280" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"></path>
+              <rect x="95" y="50" width="10" height="10" fill="#2EC4B6"></rect>
+              <g class="filament" fill="#FF9F1C" filter="url(#glow)">
+                <rect class="px" style="animation-delay:0s" x="72" y="170" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.1s" x="83" y="170" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.2s" x="83" y="159" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.3s" x="94" y="148" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.4s" x="94" y="137" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.5s" x="94" y="126" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.6s" x="105" y="137" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.7s" x="105" y="148" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.8s" x="105" y="159" width="10" height="10"></rect>
+                <rect class="px" style="animation-delay:.9s" x="116" y="170" width="10" height="10"></rect>
+              </g>
+              <path d="M77 180 V220 M121 180 V220" stroke="currentColor" stroke-opacity="0.4" stroke-width="3"></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt">
+      <div class="wrap services">
+        <div class="services-intro">
+          <h2>Websites, apps and the occasional <span class="amber">crazy idea.</span></h2>
+          <p>Most of our clients don't need a big agency. They need someone who understands how their business actually runs and can build the thing that fits it.</p>
+        </div>
+        <ul class="service-list">
+          <li class="service">
+            <svg class="pixel-icon" viewBox="0 0 10 10" shape-rendering="crispEdges" aria-hidden="true"><g fill="#FF9F1C"><rect x="0" y="1" width="10" height="2"></rect><rect x="0" y="3" width="1" height="6"></rect><rect x="9" y="3" width="1" height="6"></rect><rect x="0" y="8" width="10" height="1"></rect></g><rect x="2" y="4" width="3" height="3" fill="#2EC4B6"></rect><g fill="#EDEDED"><rect x="6" y="4" width="2" height="1"></rect><rect x="6" y="6" width="2" height="1"></rect></g></svg>
+            <div>
+              <h3>Custom websites</h3>
+              <p>Sites built around how you work: online ordering, booking, menus, galleries, or whatever your customers need to do.</p>
+            </div>
+          </li>
+          <li class="service">
+            <svg class="pixel-icon" viewBox="0 0 10 10" shape-rendering="crispEdges" aria-hidden="true"><g fill="#2EC4B6"><rect x="2" y="0" width="6" height="1"></rect><rect x="2" y="1" width="1" height="9"></rect><rect x="7" y="1" width="1" height="9"></rect><rect x="2" y="9" width="6" height="1"></rect></g><rect x="4" y="2" width="2" height="2" fill="#FF9F1C"></rect><rect x="4" y="5" width="2" height="1" fill="#EDEDED"></rect><rect x="4" y="7" width="2" height="1" fill="#FF9F1C"></rect></svg>
+            <div>
+              <h3>Apps and tools</h3>
+              <p>Owner dashboards, internal tools, and connections to the services you already pay for.</p>
+            </div>
+          </li>
+          <li class="service">
+            <svg class="pixel-icon" viewBox="0 0 10 10" shape-rendering="crispEdges" aria-hidden="true"><g fill="#FF9F1C"><rect x="4" y="0" width="2" height="1"></rect><rect x="3" y="1" width="4" height="1"></rect><rect x="2" y="2" width="6" height="3"></rect><rect x="3" y="5" width="4" height="1"></rect></g><rect x="4" y="2" width="1" height="2" fill="#FFF3D6"></rect><g fill="#2EC4B6"><rect x="3" y="7" width="4" height="1"></rect><rect x="4" y="9" width="2" height="1"></rect><rect x="0" y="1" width="1" height="1"></rect><rect x="9" y="1" width="1" height="1"></rect><rect x="0" y="5" width="1" height="1"></rect><rect x="9" y="5" width="1" height="1"></rect></g></svg>
+            <div>
+              <h3>Innovation prototypes</h3>
+              <p>Got an idea that sounds a little crazy? We'll build a working prototype you can click, test and show to people, so you find out if it flies before betting big on it.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="wrap">
+        <div class="work-head">
+          <h2>Sugar'd Flours Cookie Co.</h2>
+          <p class="muted">Custom decorated cookies and cake pops in Chanhassen, Minnesota</p>
+        </div>
+        <div class="work">
+          <figure class="work-shot">
+            <a href="https://www.sugardflourscookie.com" rel="noopener">
+              <picture>
+                <source srcset="assets/sugardflours-home.webp" type="image/webp">
+                <img src="assets/sugardflours-home.jpg" width="1317" height="861" loading="lazy" alt="The Sugar'd Flours Cookie Co. home page: a peony-in-a-flour-sack logo beside the headline 'Edible art for life's sweetest moments.' with Start your order and See the menu buttons">
+              </picture>
+            </a>
+            <figcaption>sugardflourscookie.com</figcaption>
+          </figure>
+          <div class="work-copy">
+            <p>Every order at Sugar'd Flours is custom, which used to mean a lot of back-and-forth messages to pin down designs, dates and deposits.</p>
+            <p>The new site gives customers a simple way to send a request, see the menu and pricing, browse the gallery or buy a gift certificate. Deposits go out as Square invoices. Behind the scenes, the owner can publish menus, cap how many orders come in and block off dates without touching any code.</p>
+            <a class="text-link" href="https://www.sugardflourscookie.com" rel="noopener">Visit the live site</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section-alt">
+      <div class="wrap narrow">
+        <h2>Working with us</h2>
+        <p>Most projects start with a conversation about your business and what's getting in the way. From there we sketch out a plan and a look, and you'll see it before anything gets built.</p>
+        <p>While we build, you can try the site as it comes together instead of waiting for a big reveal. After launch we're still around for updates, fixes and whatever you need next.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap contact">
+        <div class="contact-intro">
+          <h2>Tell us what you're working on.</h2>
+          <p>A few sentences is plenty. We'll get back to you within two business days.</p>
+          <p><a href="mailto:hello@robopixelstudio.com">hello@robopixelstudio.com</a></p>
+        </div>
+        <!-- Form submissions are handled by Formspree. Replace YOUR_FORM_ID (see README). -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field-row">
+            <label>Name
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+          </div>
+          <label>What do you need?
+            <select name="need">
+              <option>A new website</option>
+              <option>An app or tool</option>
+              <option>A prototype</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label>About your project
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_subject" value="New project inquiry from robopixelstudio.com">
+          <div><button class="btn btn-amber" type="submit">Send</button></div>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <svg width="20" height="30" aria-hidden="true"><use href="#tube"></use></svg>
+        <span>© <span id="year">2026</span> RoboPixel Studio</span>
+      </div>
+      <span>Modern intelligence, old-school design.</span>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
